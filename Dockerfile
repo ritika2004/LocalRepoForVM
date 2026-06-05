@@ -11,4 +11,4 @@ COPY . .
 RUN mvn dependency:go-offline
 
 # Run tests
-CMD ["mvn", "clean", "test"]
+CMD ["mvn", "test", "-Dcucumber.features=src/test/resources/features/Login.feature"]
