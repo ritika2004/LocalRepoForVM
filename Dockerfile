@@ -11,4 +11,8 @@ COPY . .
 RUN mvn dependency:go-offline
 
 # Run tests
-CMD ["mvn", "clean", "test", "-Dcucumber.features=src/test/resources/features/Login.feature"]
+CMD ["java",
+     "-cp",
+     "target/test-classes:target/classes",
+     "io.cucumber.core.cli.Main",
+     "src/test/resources/features/Login.feature"]
