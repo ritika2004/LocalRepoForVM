@@ -20,7 +20,7 @@ public class LoginStep {
     public void user_open_tutorials_ninja_homepage() {
         driver = new EdgeDriver();
         driver.manage().window().maximize();
-        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait = new WebDriverWait(driver, Duration.ofSeconds(30));
         driver.get("https://tutorialsninja.com/demo/");
     }
 

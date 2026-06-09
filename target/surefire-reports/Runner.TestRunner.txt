@@ -1,0 +1,67 @@
+-------------------------------------------------------------------------------
+Test set: Runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.219 s <<< FAILURE! -- in Runner.TestRunner
+Runner.TestRunner.runScenario["Verify registration", "Verify eCommerce flow"](1) -- Time elapsed: 0.292 s <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'user open TutorialsNinja homepage' and 10 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("user open TutorialsNinja homepage")
+public void user_open_tutorials_ninja_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("user open TutorialNinja registration page")
+public void user_open_tutorial_ninja_registration_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user enter firstname {string}")
+public void user_enter_firstname(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user enter lastname {string}")
+public void user_enter_lastname(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user enter registration email {string}")
+public void user_enter_registration_email(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user enter telephone {string}")
+public void user_enter_telephone(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user enter registration password {string}")
+public void user_enter_registration_password(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user enter confirm password {string}")
+public void user_enter_confirm_password(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user click on privacy policy checkbox")
+public void user_click_on_privacy_policy_checkbox() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user Click on continue button")
+public void user_click_on_continue_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("registration execute successfully")
+public void registration_execute_successfully() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.user open TutorialsNinja homepage(file:///C:/Users/wprjavanguser/eclipse-workspace/Cucumber_Selenium/src/test/resources/features/Login.feature:4)
+
