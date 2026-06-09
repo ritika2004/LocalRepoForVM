@@ -1,18 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: Runner.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 40.29 s <<< FAILURE! -- in Runner.TestRunner
-Runner.TestRunner.runScenario["Verify registration", "Verify eCommerce flow"](1) -- Time elapsed: 38.44 s <<< FAILURE!
-org.openqa.selenium.TimeoutException: 
-Expected condition failed: waiting for visibility of element found by By.xpath: //h1[text()='Your Account Has Been Created!'], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h1[text()='Your Account Has Been Created!']"}.
-(tried for 30 seconds with 500 milliseconds interval)
-Build info: version: '4.44.0', revision: 'da2039b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 149.0.4022.52, fedcm:accounts: true, goog:processID: 11904, ms:edgeOptions: {debuggerAddress: localhost:53219}, msedge: {msedgedriverVersion: 149.0.4022.52 (ebf9b65f6b0d..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53219/devtoo..., se:cdpVersion: 149.0.4022.52, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 09c25cc0dd1bac424babeb622f15dd1b
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
-	at StepDefinition.LoginStep.registration_execute_successfully(LoginStep.java:75)
-	at ✽.registration execute successfully(file:///C:/Users/wprjavanguser/eclipse-workspace/Cucumber_Selenium/src/test/resources/features/Login.feature:17)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.21 s -- in Runner.TestRunner
