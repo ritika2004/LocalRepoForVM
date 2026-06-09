@@ -18,4 +18,4 @@ Scenario Outline: Verify registration
 
 Examples:
   | firstname | lastname | email               | telephone   | password  | confirmPassword |
-  | Ritika    | Agrawal  | ritika34@gmail.com  | 1234567891  | Test@123  | Test@123       |
+  | Ritika    | Agrawal  | ritika45@gmail.com  | 1234567891  | Test@123  | Test@123       |
